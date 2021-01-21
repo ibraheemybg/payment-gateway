@@ -1,0 +1,50 @@
+body{
+  background-color: orange;
+  text-align: center;
+  font-family: Cambria;
+  font-size:1.4rem;
+  line-height: 2rem;
+  margin-bottom: 100px;
+}
+h3{
+  color: white;
+}
+.formm{
+  background-color: white;
+  padding:50px 0;
+}
+input{
+  height: 30px;
+  width:300px;
+}
+@media (max-width:900px) {
+  textarea{
+    height: 100px;
+    width: 300px;
+  }
+}
+.p1{
+  color:orange;
+  font-weight: bold;
+}
+
+.btn{
+  height:30px;
+  width: 300px;
+  font-size: 15px;
+}
+.foot{
+  padding-left: 100px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: yellow;
+}
+@media(max-width:900px){
+  .foot{
+    padding-left: 75px;
+    font-size: 15px;
+  }
+}
